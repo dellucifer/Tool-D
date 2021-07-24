@@ -41,7 +41,7 @@ elif c==9:
     os.system('git clone https://github.com/thewhiteh4t/seeker.git')
 elif c==10:
     os.system('git clone https://github.com/aboul3la/Sublist3r.git')
-elif c==10:
+elif c==11:
     os.system('git clone https://github.com/guelfoweb/knock.git')
 
 else:

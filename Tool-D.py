@@ -7,6 +7,7 @@ print("   =   =   = =   = =         =    =")
 print("   =   ===== ===== ====     ====== ")
 print(" ")
 
+print("[0] update Tool-D to newest version")
 print("[1] TBomb")
 print("[2] zphisher")
 print("[3] Hidden-Eye")
@@ -43,9 +44,11 @@ elif c==10:
     os.system('git clone https://github.com/aboul3la/Sublist3r.git')
 elif c==11:
     os.system('git clone https://github.com/guelfoweb/knock.git')
-
+elif c==0:
+    os.system('git clone https://github.com/dellucifer/Tool-D.git')
 else:
     print("Invalid Choice")
 
 print(" ")
 print("Thanks for using Tool-D")
+print("AUTHOR: DELLUCIFER")

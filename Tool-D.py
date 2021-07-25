@@ -19,6 +19,8 @@ print("[8] snitch")
 print("[9] seeker")
 print("[10] sublist3r")
 print("[11] knock")
+print("[12] blackeye")
+print("[13] weeman")
 print(" ")
 c=int(input("Enter tool no. you want to install: "))
 
@@ -46,6 +48,10 @@ elif c==11:
     os.system('git clone https://github.com/guelfoweb/knock.git')
 elif c==0:
     os.system('git clone https://github.com/dellucifer/Tool-D.git')
+elif c==12:
+    os.system('git clone https://github.com/An0nUD4Y/blackeye.git')
+elif c==13:
+    os.system('git clone https://github.com/evait-security/weeman.git')
 else:
     print("Invalid Choice")
 

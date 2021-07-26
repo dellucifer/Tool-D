@@ -21,6 +21,9 @@ print("[10] sublist3r")
 print("[11] knock")
 print("[12] blackeye")
 print("[13] weeman")
+print("[14] userrecon")
+print("[15] sherlock")
+print("[16] Osintgram")
 print(" ")
 c=int(input("Enter tool no. you want to install: "))
 
@@ -52,6 +55,12 @@ elif c==12:
     os.system('git clone https://github.com/An0nUD4Y/blackeye.git')
 elif c==13:
     os.system('git clone https://github.com/evait-security/weeman.git')
+elif c==14:
+    os.system('git clone https://github.com/issamelferkh/userrecon.git')
+elif c==15:
+    os.system('git clone https://github.com/sherlock-project/sherlock.git')
+elif c==16:
+    os.system('git clone https://github.com/Datalux/Osintgram.git')
 else:
     print("Invalid Choice")
 

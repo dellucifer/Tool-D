@@ -24,10 +24,7 @@ print("[13] weeman")
 print("[14] userrecon")
 print("[15] sherlock")
 print("[16] Osintgram")
-print("[17] shell phish")
-print("[18] mask phish")
-print("[19] cam phish")
-print("[20] nex phisher")
+
 print(" ")
 c=int(input("Enter tool no. you want to install: "))
 

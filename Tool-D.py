@@ -24,6 +24,10 @@ print("[13] weeman")
 print("[14] userrecon")
 print("[15] sherlock")
 print("[16] Osintgram")
+print("[17] shell phish")
+print("[18] mask phish")
+print("[19] cam phish")
+print("[20] nex phisher"]
 print(" ")
 c=int(input("Enter tool no. you want to install: "))
 
@@ -61,6 +65,14 @@ elif c==15:
     os.system('git clone https://github.com/sherlock-project/sherlock.git')
 elif c==16:
     os.system('git clone https://github.com/Datalux/Osintgram.git')
+elif c==17:
+    os.system('https://github.com/suljot/shellphish.git')
+elif c==18:
+    os.system('https://github.com/jaykali/maskphish.git')
+elif c==19:
+    os.system('https://github.com/techchipnet/CamPhish.git')
+elif c==20:
+    os.system('https://github.com/htr-tech/nexphisher.git']
 else:
     print("Invalid Choice")
 

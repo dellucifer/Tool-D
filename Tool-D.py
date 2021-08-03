@@ -27,7 +27,7 @@ print("[16] Osintgram")
 print("[17] shell phish")
 print("[18] mask phish")
 print("[19] cam phish")
-print("[20] nex phisher"]
+print("[20] nex phisher")
 print(" ")
 c=int(input("Enter tool no. you want to install: "))
 
@@ -72,7 +72,7 @@ elif c==18:
 elif c==19:
     os.system('https://github.com/techchipnet/CamPhish.git')
 elif c==20:
-    os.system('https://github.com/htr-tech/nexphisher.git']
+    os.system('https://github.com/htr-tech/nexphisher.git')
 else:
     print("Invalid Choice")
 
